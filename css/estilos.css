@@ -11,9 +11,6 @@ body{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    /*display: flex;
-    flex-direction: column;
-    align-items: center;*/
 }
 
 /*GENÉRICOS*/
@@ -77,45 +74,23 @@ h2{
     display: flex;
     z-index: -1;
 }
-/*Cabecera con scroll*/
-#cabecera_con_scroll{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#cabecera_con_scroll #flecha_scroll{
-    width: 48px;
-    height: 48px;
-    border-radius: 100%;
-    background-color: var(--main_color);
-    position: absolute;
-    top: 774px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-#cabecera_con_scroll #flecha_scroll #icono_flecha_scroll{
-    padding-top: 6px;
-}
 /*Cabecera*/
 #cabecera{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-top: 128px;
 }
-#cabecera #h1_y_boton{
+#cabecera #texto_y_elementos{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     width: 537px;
-    margin: 108px 118px 0 0;
+    margin: 208px 118px 0 0;
 }
-#boton_descargar{
+#cabecera #boton_descargar{
     background-color: var(--main_color);
     width: 230px;
     height: 46px;
@@ -127,8 +102,10 @@ h2{
     justify-content: center;
     align-items: center;
 }
-#cabecera #home_movil{
-    width: 418px;
+#cabecera #hr_y_flecha_scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 #cabecera hr{
     border: none;
@@ -136,11 +113,131 @@ h2{
     width: 564px;
     margin-top: 104px;
 }
+#cabecera #flecha_scroll{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: var(--main_color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 51px;
+}
+#cabecera #flecha_scroll #icono_flecha_scroll{
+    padding-top: 6px;
+}
+#cabecera #home_movil{
+    width: 418px;
+}
 /*Sección "Qué te ofrece JobTÚ"*/
 #seccion_ofrece{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 55px;
+}
+#seccion_ofrece .p_letra_pequeña{
+    font-size: 18px;
+    margin-top: 10px;
+    display: inline-block;
+    line-height: 1.45;
+}
+#seccion_ofrece #imagen_empleo_ideal{
+    width: 47%;
+}
+#seccion_ofrece .apartado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+}
+#seccion_ofrece .apartado#apartado_empleo_ideal{
+    margin-top: 35px;
+}
+#seccion_ofrece .texto_parrafos{
+    width: 335px;
+}
+#seccion_ofrece .piedra_y_texto_parrafos{
+    display: flex;
+    flex-direction: row;
+}
+#seccion_ofrece .piedra_y_texto_parrafos .piedra_parrafos{
+    margin-right: 16px;
+}
+#seccion_ofrece .piedra_y_texto_parrafos#empleo_ideal{
+    /*width: 1080px;*/
+    padding-right: 52px;
+}
+#seccion_ofrece .apartado#apartado_ofertas_reunidas{
+    flex-direction: row-reverse;
+}
+#seccion_ofrece .apartado#apartado_ofertas_reunidas{
+    margin-top: 55px;
+}
+#seccion_ofrece .piedra_y_texto_parrafos#envia_y_actualiza{
+    padding-right: 74px;
+}
+#seccion_ofrece #texto_parrafos_envia_y_actualiza{
+    width: 340px;
+}
+#seccion_ofrece .apartado#apartado_envia_y_actualiza{
+    margin-top: 8px;
+}
+#seccion_ofrece #imagen_envia_y_actualiza{
+    width: 42%;
+}
+
+/*CONTENEDOR ONDA BLANCA*/
+#contenedor_onda_blanca #onda_blanca{
+    width: 100vw;
+    margin-top: 140px;
+    position: absolute;
+    left: 0;
+    top: 2528px;
+    display: flex;
+    z-index: -1;
+}
+/*Sección "Cómo funciona JobTÚ"*/
+#seccion_como_funciona{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 290px;
+    position: relative;
+}
+#seccion_como_funciona .apartado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1080px;
+}
+#seccion_como_funciona #imagen_onda_preferencias{
+    width: 100%; /*45%*/
+    padding: 3% 18% 18% 18%;
+    z-index: -1;
+}
+#seccion_como_funciona .conjunto_imagen_texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 1080px;
+    height: 100%;
+}
+#seccion_como_funciona #imagen_preferencias{
+    width: 48%;
+    position: absolute;
+    left: 170px;
+    bottom: 230px;
+}
+#seccion_como_funciona #p_preferencias{
+    width: 334px;
+    position: absolute;
+    right: 50px;
 }
