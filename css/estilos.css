@@ -11,6 +11,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-size: 24px;
+    overflow-x: hidden;
 }
 
 /*GENÉRICOS*/
@@ -142,6 +143,8 @@ h3{
     justify-content: center;
     align-items: center;
     margin-top: 55px;
+    background-color: #F9F9F8;
+    padding-bottom: 80px;
 }
 #seccion_ofrece .p_letra_pequeña{
     font-size: 18px;
@@ -340,25 +343,24 @@ h3{
 }
 
 /*CONTENEDOR ONDA GRIS FOOTER*/
-#contenedor_onda_gris_footer #onda_gris_footer{
+#contenedor_onda_gris_footer{
+    height: 550px;
     width: 100vw;
+    background-image: url(../SVG/onda_gris_footer.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
     position: absolute;
-    left: 0;
-    top: 7190px;
-    display: flex;
     z-index: -1;
+    top: 7190px;
 }
-/*#contenedor_onda{
-    position: absolute;
-    height: 1000px;
-}*/
 /*Footer*/
 #footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 230px;
+    margin-top: 185px;
 }
 #footer #botones_descarga{
     display: flex;
