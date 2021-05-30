@@ -71,7 +71,7 @@ h3{
 }
 
 /*CONTENEDOR ONDA GRIS*/
-/*#contenedor_onda_gris #onda_gris{
+#contenedor_onda_gris #onda_gris{
     width: 100vw;
     margin-top: 32px;
     position: absolute;
@@ -79,7 +79,7 @@ h3{
     left: 0;
     display: flex;
     z-index: -1;
-}*/
+}
 /*Cabecera*/
 #cabecera{
     display: flex;
@@ -87,10 +87,6 @@ h3{
     justify-content: center;
     align-items: center;
     padding-top: 128px;
-    background-image: url(../SVG/onda_gris.svg);
-    background-position: 0 30px;
-    background-size: 100vw;
-    background-repeat: no-repeat;
     background-color: #F9F9F8;
 }
 #cabecera #texto_y_elementos{
