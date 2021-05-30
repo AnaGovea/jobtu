@@ -11,7 +11,7 @@
 <body>
     <nav id="contenedor_navegador">
         <nav id="navegador">
-            <img id="logo_navegador" src="SVG/Logo_jobtu.svg" alt="">
+            <img id="logo_navegador" src="SVG/logo_jobtu.svg" alt="">
             <ul>
                 <li> Qué te ofrece JobTÚ </li>
                 <li> Cómo funciona </li> 
@@ -20,24 +20,23 @@
             </ul>
         </nav>
     </nav>
-
+    
     <div id="contenedor_onda_gris">
         <img id="onda_gris" src="SVG/onda_gris.svg" alt="Onda de fondo gris">
-            <div id="cabecera">
-                <div id="texto_y_elementos">
-                    <h1> La app de búsqueda <br> de empleo para creativos como TÚ </h1>
-                    <a id="boton_descargar">
-                        Descargar ahora
-                    </a>
-                    <div id="hr_y_flecha_scroll">
-                        <hr>
-                        <div id="flecha_scroll">
-                            <img id="icono_flecha_scroll" src="SVG/flecha_scroll.svg" alt="icono de flecha de scroll">
-                        </div>
+        <div id="cabecera">
+            <div id="texto_y_elementos">
+                <h1> La app de búsqueda <br> de empleo para creativos como TÚ </h1>
+                <a id="boton_descargar">
+                    Descargar ahora
+                </a>
+                <div id="hr_y_flecha_scroll">
+                    <hr>
+                    <div id="flecha_scroll">
+                        <img id="icono_flecha_scroll" src="SVG/flecha_scroll.svg" alt="icono de flecha de scroll">
                     </div>
                 </div>
-                <img id="home_movil" src="IMG/home_movil.png" alt="Home de la app JobTÚ">
             </div>
+            <img id="home_movil" src="IMG/home_movil.png" alt="Home de la app JobTÚ">
         </div>
         <div id="seccion_ofrece">
             <h2> ¿Qué te ofrece JobTÚ? </h2>
@@ -91,7 +90,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -100,20 +98,92 @@
         
         <div id="seccion_como_funciona">
             <h2> ¿Cómo funciona JobTÚ? </h2>
-            <div class="apartado" id="apartado_preferencias">
-                <div class="conjunto_imagen_texto" id="conjunto_preferencias">
-                    <img id="imagen_preferencias" src="IMG/pantallas_funciona_1.png" alt="Imagen de Preferencias de búsqueda">
-                    <p class="p_como_funciona" id="p_preferencias">
-                        Selecciona tus <br> <b>preferencias de búsqueda</b> para encontrar ofertas en base a tu perfil
-                    </p>
-                </div>
+            <div class="apartado apartado_txt_derecha" id="preferencias">
+                <img class="imagen_izquierda" id="imagen_preferencias" src="IMG/pantallas_funciona_1.png" alt="Imagen de Preferencias de búsqueda">
+                <p class="p_txt_derecha">
+                    Selecciona tus <br> <b>preferencias de búsqueda</b> para encontrar ofertas en base a tu perfil
+                </p>
                 <img id="imagen_onda_preferencias" src="SVG/mancha_fondo_funciona_1.svg" alt="Onda de fondo de la imagen de preferencias de búsqueda">
             </div>
 
+            <div class="apartado apartado_txt_izquierda" id="favoritos">
+                <img class="imagen_derecha" id="imagen_favoritos" src="IMG/pantallas_funciona_2.png" alt="Imagen de ofertas favoritas">
+                <p class="p_txt_izquierda">
+                    Guarda tus <b>ofertas <br> favoritas</b> y comprueba el <br> estado de aquellas a las <br> que has </b>aplicado</b>
+                </p>
+                <img id="imagen_onda_favoritos" src="SVG/mancha_fondo_funciona_2.svg" alt="Onda de fondo de la imagen de ofertas favoritas">
+            </div>
+
+            <div class="apartado apartado_txt_derecha" id="contactar">
+                <img class="imagen_izquierda" id="imagen_contactar" src="IMG/pantallas_funciona_3.png" alt="Imagen de Mensajes directos con la empresa">
+                <p class="p_txt_derecha">
+                    Las <b>empresas contactarán</b> <br> contigo por privado a <br> través de la app
+                </p>
+                <img id="imagen_onda_contactar" src="SVG/mancha_fondo_funciona_3.svg" alt="Onda de fondo de la imagen de contacto con la empresa por mensaje">
+            </div>
+
+            <div class="apartado apartado_txt_izquierda" id="sube_o_crea">
+                <img class="imagen_derecha" id="imagen_sube_o_crea" src="IMG/pantallas_funciona_4.png" alt="Imagen de subir o crear portfolio">
+                <p class="p_txt_izquierda">
+                    <b>Sube o crea</b> <br> directamente desde la app <br> tu <b> CV y portfolio</b>
+                </p>
+                <img id="imagen_onda_sube_o_crea" src="SVG/mancha_fondo_funciona_4.svg" alt="Onda de fondo de la imagen de subir o crear CV y portfolio">
+            </div>
+
+            <div class="apartado apartado_txt_derecha" id="editar">
+                <img class="imagen_izquierda" id="imagen_editar" src="IMG/pantallas_funciona_5.png" alt="Imagen de edición de CV y portfolio">
+                <p class="p_txt_derecha">
+                    <b>Edita</b> tu <b>CV y portfolio</b> <br> y actualiza la <b>carta de <br> recomendación</b> siempre <br> que lo desees
+                </p>
+                <img id="imagen_onda_editar" src="SVG/mancha_fondo_funciona_5.svg" alt="Onda de fondo de la imagen de editar CV y portfolio">
+            </div>
         </div>
 
-        <div>
+        <div id="seccion_valoraciones">
+            <h2> Valoraciones </h2>
+            <div id="contenedor_slide_valoracion">
+                <img class="flecha_valoraciones" id="flecha_atras_valoraciones" src="SVG/flecha_izq_valoraciones.svg" alt="flecha para ver valoración anterior">
 
+                <div id="contenedor_valoracion_total_y_bullets">
+                    <div id="valoracion_total">
+                        <img id="foto_valoracion_2" src="IMG/foto_valoraciones_2.png" alt="foto de la persona que da la valoración">
+                        <div id="contenedor_estrellas_nombre_y_texto">
+                            <img src="SVG/estrellas_valoracion.svg" alt="estrellas de valoración">
+                            <span id="nombre_valorador">Amaia</span>
+                            <p id="parrafo_valoracion"> Aunque es cierto que es algo costoso rellenar todos los campos de los formularios de CV y portfolio, merece mucho la pena. Estoy realmente contenta con esta app. <br> ¡De lo más sencilla y útil!
+                            </p>
+                        </div>
+                    </div>
+                    <div id="bullets">
+                        <img src="SVG/bullets_act_2.svg" alt="bullets con el segundo activo">
+                    </div>
+                </div>
+
+                <img class="flecha_valoraciones" id="flecha_adelante_valoraciones" src="SVG/flecha_derecha_valoraciones.svg" alt="flecha para ver valoración siguiente">
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="contenedor_onda_gris_footer">
+        <img id="onda_gris_footer" src="SVG/onda_gris_footer.svg" alt="Onda gris de footer">
+        <div id="footer">
+            <h3> ¡Descárgatela y encuentra ya TU empleo </h3>
+            <div id="botones_descarga">
+                <img src="SVG/google_play.svg" alt="Botón de descarga en Google Play">
+                <img src="SVG/app_store.svg" alt="Botón de descarga en la App Store">
+            </div>
+
+            <hr>
+            <div id="logo_e_iconos_RRSS">
+                <img src="SVG/logo_jobtu.svg" alt="logo JobTÚ">
+                <div id="iconos_RRSS">
+                    <img src="SVG/logo_ig.svg" alt="Icono Instagram">
+                    <img src="SVG/logo_tt.svg" alt="Icono Twitter">
+                    <img src="SVG/logo_fb.svg" alt="Icono Facebook">
+                </div>
+            </div>
         </div>
     </div>
 

@@ -7,7 +7,7 @@
 
 body{
     margin: 0;
-    margin-bottom: 5000px;
+    margin-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -24,6 +24,11 @@ h1{
 }
 h2{
     font-size: 38px;
+    color: black;
+    font-weight: 500;
+}
+h3{
+    font-size: 28px;
     color: black;
     font-weight: 500;
 }
@@ -206,38 +211,182 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 290px;
-    position: relative;
+    margin-top: 320px;
 }
 #seccion_como_funciona .apartado{
+    margin-bottom: 60px;
+    width: 1080px;
+    position: relative;
+}
+#seccion_como_funciona .apartado_txt_derecha{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 1080px;
+    margin-top: 20px;
+}
+#seccion_como_funciona .imagen_izquierda{
+    width: 50%;
+    position: relative;
+    left: 40px;
+    top: -40px;
 }
 #seccion_como_funciona #imagen_onda_preferencias{
-    width: 100%; /*45%*/
-    padding: 3% 18% 18% 18%;
+    position: absolute;
     z-index: -1;
+    width: 780px;
 }
-#seccion_como_funciona .conjunto_imagen_texto{
+#seccion_como_funciona .p_txt_derecha{
+    width: 320px;
+    position: relative;
+    left: 25px;
+    top: 55px;
+}
+#seccion_como_funciona .apartado_txt_izquierda{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#seccion_como_funciona .imagen_derecha{
+    width: 50%;
+    position: relative;
+    left: 75px;
+    top: -40px;
+}
+#seccion_como_funciona #imagen_onda_favoritos{
+    position: absolute;
+    z-index: -1;
+    width: 1000px;
+    right: -160px;
+}
+#seccion_como_funciona .p_txt_izquierda{
+    width: 320px;
+    position: relative;
+    left: 96px;
+    top: 64px;
+}
+#seccion_como_funciona #imagen_onda_contactar{
+    position: absolute;
+    z-index: -1;
+    width: 950px;
+    left: -80px;
+    top: -20px;
+}
+#seccion_como_funciona #contactar .p_txt_derecha{
+    top: 25px;
+}
+#seccion_como_funciona #imagen_onda_sube_o_crea{
+    position: absolute;
+    z-index: -1;
+    width: 800px;
+    right: -5px;
+}
+#seccion_como_funciona #imagen_onda_editar{
+    position: absolute;
+    z-index: -1;
+    width: 1000px;
+    left: -156px;
+    top: -13px;
+}
+/*Sección "Valoraciones"*/
+#seccion_valoraciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+#seccion_valoraciones #contenedor_slide_valoracion{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+#seccion_valoraciones #contenedor_valoracion_total_y_bullets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#seccion_valoraciones #valoracion_total{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 22px 100px 38px 100px;
+}
+#seccion_valoraciones #valoracion_total #foto_valoracion_2{
+    width: 240px;
+}
+#seccion_valoraciones #contenedor_estrellas_nombre_y_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 55px;
+}
+#seccion_valoraciones #contenedor_estrellas_nombre_y_texto #nombre_valorador{
+    font-weight: 500;
+    margin: 28px 0 8px 0;
+}
+#seccion_valoraciones #contenedor_estrellas_nombre_y_texto p#parrafo_valoracion{
+    width: 365px;
+    font-size: 18px;
+    display: inline-block;
+    line-height: 1.45;
+    margin: 0;
+}
+
+/*CONTENEDOR ONDA GRIS FOOTER*/
+#contenedor_onda_gris_footer #onda_gris_footer{
+    width: 100vw;
     position: absolute;
+    left: 0;
+    top: 7190px;
+    display: flex;
+    z-index: -1;
+}
+/*#contenedor_onda{
+    position: absolute;
+    height: 1000px;
+}*/
+/*Footer*/
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 230px;
+}
+#footer #botones_descarga{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#footer #botones_descarga img{
+    margin: 0 20px;
+}
+#footer hr{
+    border: none;
+    border-bottom: 1px solid #D1D1D1;
     width: 1080px;
-    height: 100%;
+    margin-top: 70px;
 }
-#seccion_como_funciona #imagen_preferencias{
-    width: 48%;
-    position: absolute;
-    left: 170px;
-    bottom: 230px;
+#footer #logo_e_iconos_RRSS{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 365px;
 }
-#seccion_como_funciona #p_preferencias{
-    width: 334px;
-    position: absolute;
-    right: 50px;
+#footer #logo_e_iconos_RRSS #iconos_RRSS{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
 }
