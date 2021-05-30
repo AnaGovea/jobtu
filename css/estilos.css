@@ -71,15 +71,15 @@ h3{
 }
 
 /*CONTENEDOR ONDA GRIS*/
-#contenedor_onda_gris #onda_gris{
+/*#contenedor_onda_gris #onda_gris{
     width: 100vw;
-    margin-top: 145px;
+    margin-top: 32px;
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
     z-index: -1;
-}
+}*/
 /*Cabecera*/
 #cabecera{
     display: flex;
@@ -87,6 +87,11 @@ h3{
     justify-content: center;
     align-items: center;
     padding-top: 128px;
+    background-image: url(../SVG/onda_gris.svg);
+    background-position: 0 30px;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-color: #F9F9F8;
 }
 #cabecera #texto_y_elementos{
     display: flex;
@@ -142,7 +147,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 55px;
+    padding-top: 55px;
     background-color: #F9F9F8;
     padding-bottom: 80px;
 }
@@ -201,12 +206,6 @@ h3{
 /*CONTENEDOR ONDA BLANCA*/
 #contenedor_onda_blanca #onda_blanca{
     width: 100vw;
-    margin-top: 140px;
-    position: absolute;
-    left: 0;
-    top: 2528px;
-    display: flex;
-    z-index: -1;
 }
 /*Sección "Cómo funciona JobTÚ"*/
 #seccion_como_funciona{
